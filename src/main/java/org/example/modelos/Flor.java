@@ -109,4 +109,20 @@ public class Flor {
     public void setPaisOrigen(String paisOrigen) {
         this.paisOrigen = paisOrigen;
     }
+
+    @Override
+    public String toString() {
+        return "Flor{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", color='" + color + '\'' +
+                ", precio=" + precio +
+                ", cantidad=" + cantidad +
+                ", espinas=" + espinas +
+                ", numeroPetalos=" + numeroPetalos +
+                ", vencimiento=" + vencimiento +
+                ", culivador='" + culivador + '\'' +
+                ", paisOrigen='" + paisOrigen + '\'' +
+                '}';
+    }
 }

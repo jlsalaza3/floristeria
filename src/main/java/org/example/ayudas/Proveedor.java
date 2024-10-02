@@ -109,4 +109,20 @@ public class Proveedor {
     public void setFechaRegistro(LocalDate fechaRegistro) {
         this.fechaRegistro = fechaRegistro;
     }
+
+    @Override
+    public String toString() {
+        return "Proveedor{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", producto='" + producto + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", ciudad='" + ciudad + '\'' +
+                ", departamento='" + departamento + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", correo='" + correo + '\'' +
+                ", regimen='" + regimen + '\'' +
+                ", fechaRegistro=" + fechaRegistro +
+                '}';
+    }
 }
